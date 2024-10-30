@@ -1,0 +1,180 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body, .site-body{
+	background-color: #fff;
+	width: 100vw;
+	height: 100vh;
+}
+
+.main{
+	width: 100%;	
+	height: 100%;
+	background-image: url('../img/main_bckground_blue.jpg');
+}
+
+.slick-container{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+}
+
+/*.slide{
+	width: 90vw !important;
+	height: 90vh ;
+	background-color: red;
+}*/
+
+.slick-initialized .slick-slide{
+	display: flex;
+	justify-content: center;
+	height: 90vh;
+	padding: 5vh 5vw;
+}
+
+.slick-initialized .slick-slide > div{
+	background-color: transparent;
+	border: 1px solid #000;
+	height: 100%;
+	box-shadow: inset -22px 0px 37px #ffffff75, inset 22px 0px 37px #ffffff75;
+	background-color: #bbb;
+	padding-top: 15px;
+}
+
+.slick-dots li{
+	background-color: #fff;
+}
+
+.h1{
+	text-align: center;    
+    font-size: 56px;
+    font-weight: 600;
+    padding: 30px;    
+}
+
+.h2{
+	text-align: center;
+    padding: 5px;
+    font-size: 6px;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+.subtitle{
+	text-align: center;
+}
+
+.block.gorizontal{
+	display: flex;
+}
+
+.block{
+	max-width: 320px;	
+	padding: 5px;
+}
+
+.img{
+	display: block;
+	max-width: 100%;
+}
+
+.text, .p{
+	font-size: 6px;
+	padding: 5px;
+	background-color: #fff;
+}
+
+.block .text {
+	padding: 5px;
+	font-size: 6px;
+	background-color: #fff;	
+}
+
+.slide > * {
+	padding-bottom: 30px;
+}
+
+.block .img-wrapper{
+	background-color: #fff;
+	padding: 5px;
+}
+
+.block .inner{
+	margin: 5px;
+	background-color: #fff;	
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.sguak .row {
+	margin-bottom: 15px;
+}
+
+.theme-title{
+	font-size: 7px;
+	font-weight: 600;
+}
+
+.group{	
+	border: 1px solid #6d6d6d;
+    border-radius: 4px;
+    background-color: #a5a3a3;
+}
+
+.row{
+	position: relative;
+}
+
+.img-wrp{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.square{
+	padding-bottom: 100%;
+}
+
+.rectangle{
+	padding-bottom: 60%;
+}
+
+.proportion-saver{
+	position: relative;
+	border: 1px solid grey;
+}
+
+.img-wrp .img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 100%;
+	width: auto;
+	transform: translate(-50%, -50%);
+}
+
+.p{
+	font-size: 21px;
+}
+
+.a{
+	display: block;
+	text-decoration: none;
+}
+
+.body{
+	width: 100vw;
+	height: 100vh;
+}
+
+@media (min-width: 1400px) {
+    .sguak .container {
+        max-width: 1200px;
+    }
+}
