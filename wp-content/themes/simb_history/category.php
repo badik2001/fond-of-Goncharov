@@ -80,20 +80,13 @@
 						<div class="col-3 ">
 							<div class="exhibit-card">
 
-<<<<<<< HEAD
-								<h3 class="h3 exhibit-card-title"><?= $value->post_title ?></h3>
-=======
 								
->>>>>>> 3cf77384efec9528cb83eca81ea7ace5b87ac287
 								<!-- <div class="proportion-saver square">
 									<div class="img-wrp"> -->
 										<img src="<?= get_the_post_thumbnail_url( $value->ID, 'large' ); ?>" alt="" class="img" loading="lazy">
 									<!-- </div>
 								</div> -->
-<<<<<<< HEAD
-=======
 								<h3 class="h3 exhibit-card-title"><?= $value->post_title ?></h3>
->>>>>>> 3cf77384efec9528cb83eca81ea7ace5b87ac287
 								<p class="p post-content"><?= $value->post_content ?></p>			
 
 							</div>
